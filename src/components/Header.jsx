@@ -9,7 +9,7 @@ function Header({activeTab, setActiveTab, pageRefs}){
         {path: '/about', label: 'About'},
         {path: '/tech', label: 'Expertise'},
         {path: '/projects', label: 'Projects'},
-        {path: '/footer', label: 'Contact'}
+        // {path: '/footer', label: 'Contact'}
     ]
 
 

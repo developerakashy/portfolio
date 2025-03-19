@@ -4,8 +4,8 @@ import { IoHeart } from "react-icons/io5"
 function Footer({pageRefs}){
 
     return(
-        <div ref={(ele) => pageRefs.current[4] = ele} className="sticky px-16 flex flex-col justify-between text-white h-screen w-full bg-black">
-            <p className="text-white">Footer page</p>
+        <div ref={(ele) => pageRefs.current[4] = ele} className="px-6 sm:px-16 flex flex-col justify-between text-white w-full bg-black">
+            {/* <p className="text-white">Footer page</p> */}
 
             <div className="">
 
@@ -17,7 +17,7 @@ function Footer({pageRefs}){
                     <p>Akash Yadav</p>
                 </div>
 
-                <div className="flex gap-2 items-center">
+                <div className="flex gap-1 items-center">
                     <p>Built by Akash with</p>
                     <IoHeart className="fill-red-500"/>
                 </div>
