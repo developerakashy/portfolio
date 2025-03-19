@@ -29,7 +29,7 @@ function Hero({pageRefs}){
                     </a>
 
                 </div>
-                <a className="flex w-fit items-center gap-2 px-4 py-2 bg-stone-100 text-black duration-200 rounded-full hover:bg-red-500 hover:text-white" href="../src/assets/AkashYadav.pdf" download>Download Resume <FaArrowDown/></a>
+                <a className="flex w-fit items-center gap-2 px-4 py-2 bg-stone-100 text-black duration-200 rounded-full hover:bg-red-500 hover:text-white" href="./AkashYadav.pdf" download>Download Resume <FaArrowDown/></a>
             </div>
 
             <div className="w-1/2 p-12 flex items-center justify-center">

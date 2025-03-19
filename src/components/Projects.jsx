@@ -7,56 +7,56 @@ function Projects({pageRefs}){
 
     const projects = [
         {
-            img: '../src/assets/bluesky.png',
+            img: 'https://res.cloudinary.com/donntefzc/image/upload/v1742383486/yibr9p6uuziv3pdik4vs.png',
             name: 'BlueSky',
             tech: 'React - ReactRouter - Tailwind - Express - WebSocket',
             type: 'Fullstack Project',
             url: 'https://blue-sky-lyart.vercel.app/'
         },
         {
-            img: '../src/assets/agecalculator.png',
+            img: 'https://res.cloudinary.com/donntefzc/image/upload/v1742383483/tei8iaipfva3tedrgpto.png',
             name: 'Age Calculator',
             tech: 'HTML - CSS - Javascript',
             type: 'Mini Project',
             url: 'https://age-calculator-azure-omega.vercel.app'
         },
         {
-            img: '../src/assets/stopwatch.png',
+            img: 'https://res.cloudinary.com/donntefzc/image/upload/v1742383485/drcflhxthtihd2stcvqw.png',
             name: 'Stop Watch',
             tech: 'HTML - CSS - Javascript',
             type: 'Mini Project',
             url: 'https://stop-watch-lyart-pi.vercel.app/'
         },
         {
-            img: '../src/assets/quiz.png',
+            img: 'https://res.cloudinary.com/donntefzc/image/upload/v1742383484/ugqyyel9fxcotibt58ea.png',
             name: 'Quiz App',
             tech: 'HTML - CSS - Javascript',
             type: 'Mini Project',
             url: 'https://quiz-app-2393.vercel.app'
         },
         {
-            img: '../src/assets/currencyconvertor.png',
+            img: 'https://res.cloudinary.com/donntefzc/image/upload/v1742383483/n89ciabj5chvtolfznym.png',
             name: 'Currency Convertor',
             tech: 'React - Tailwind',
             type: 'Mini Project',
             url: 'https://convertmycurrency.vercel.app/'
         },
         {
-            img: '../src/assets/financetracker.png',
+            img: 'https://res.cloudinary.com/donntefzc/image/upload/v1742383484/jvzccjgohkusee9wto4o.png',
             name: 'Finance Tracker',
             tech: 'HTML - CSS - Javascript',
             type: 'Mini Project',
             url: 'https://finance-tracker-flax.vercel.app/'
         },
         {
-            img: '../src/assets/productandcartpage.png',
+            img: 'https://res.cloudinary.com/donntefzc/image/upload/v1742383485/vekii8zm0jamyzrxtlbq.png',
             name: 'Product And Cart Page',
             tech: 'HTML - CSS - Javascript',
             type: 'Mini Project',
             url: 'https://product-and-cart-page.vercel.app/'
         },
         {
-            img: '../src/assets/todo.png',
+            img: 'https://res.cloudinary.com/donntefzc/image/upload/v1742383486/yyufawn9mnqa78qzspta.png',
             name: 'TODO App',
             tech: 'HTML - CSS - Javascript',
             type: 'Mini Project',
