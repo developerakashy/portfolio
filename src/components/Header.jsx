@@ -40,18 +40,18 @@ function Header({activeTab, setActiveTab, pageRefs}){
 
     return(
         <>
-            <div className="hidden fixed z-40 top-0 right-0 left-0 sm:flex justify-between py-2 px-16 items-center">
-                <div className="h-10 w-10 rounded-full p-[6px] bg-white/50 backdrop-blur-md flex items-center justify-center">
+            <div className="fixed z-40 w-full top-0 sm:bottom-auto right-0 left-0 flex justify-center sm:justify-between py-2 sm:px-6 md:px-12 lg:px-16 items-center">
+                <div className="h-10 w-10 hidden sm:flex rounded-full p-[6px] bg-red-100/50 backdrop-blur-md flex items-center justify-center">
                     <img className="" src="./vite.svg" alt="photo" />
                 </div>
 
                 <div className="relative p-2 rounded-full backdrop-blur-sm bg-red-100/50">
-                    <nav className="flex gap-2 relative rounded-full">
+                    <nav className="flex sm:gap-2 relative justify-center rounded-full">
                         {navItems.map((navItem, index) =>
                             <button
                                 key={navItem.label}
                                 onClick={(e) => handleNavClick(navItem.path, index)}
-                                className="cursor-pointer z-10 px-4 py-1 rounded-full font-medium text-lg text-gray-800"
+                                className="cursor-pointer z-10 px-3 py-1 rounded-full font-medium sm:text-lg text-gray-800"
                                 ref={(element) => (navRefs.current[navItem.path] = element)}
                             >
 
@@ -68,7 +68,7 @@ function Header({activeTab, setActiveTab, pageRefs}){
                     </nav>
                 </div>
 
-                <div className="h-10 w-10">
+                <div className="h-10 w-10 hidden sm:block">
 
                 </div>
             </div>

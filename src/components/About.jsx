@@ -1,7 +1,7 @@
 function About({pageRefs}){
 
     return(
-        <div ref={(ele) => pageRefs.current[1] = ele} className="min-h-screen w-full bg-linear-to-b from-white to-red-100 flex flex-col justify-center items-center gap-10 px-6 sm:px-16">
+        <div ref={(ele) => pageRefs.current[1] = ele} className="min-h-screen w-full bg-linear-to-b from-white to-red-100 flex flex-col justify-center items-center gap-10 px-6 md:px-12 lg:px-16">
 
                 <div className="h-35 w-35 md:h-45 md:w-45 p-8 rounded-full bg-teal-200 flex items-center justify-center">
                     <img className="w-full" src="./vite.svg" alt="" />

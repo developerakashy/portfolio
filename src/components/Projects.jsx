@@ -28,13 +28,6 @@ function Projects({pageRefs}){
             url: 'https://stop-watch-lyart-pi.vercel.app/'
         },
         {
-            img: 'https://res.cloudinary.com/donntefzc/image/upload/v1742383484/ugqyyel9fxcotibt58ea.png',
-            name: 'Quiz App',
-            tech: 'HTML - CSS - Javascript',
-            type: 'Mini Project',
-            url: 'https://quiz-app-2393.vercel.app'
-        },
-        {
             img: 'https://res.cloudinary.com/donntefzc/image/upload/v1742383483/n89ciabj5chvtolfznym.png',
             name: 'Currency Convertor',
             tech: 'React - Tailwind',
@@ -47,6 +40,14 @@ function Projects({pageRefs}){
             tech: 'HTML - CSS - Javascript',
             type: 'Mini Project',
             url: 'https://finance-tracker-flax.vercel.app/'
+        },
+
+        {
+            img: 'https://res.cloudinary.com/donntefzc/image/upload/v1742383484/ugqyyel9fxcotibt58ea.png',
+            name: 'Quiz App',
+            tech: 'HTML - CSS - Javascript',
+            type: 'Mini Project',
+            url: 'https://quiz-app-2393.vercel.app'
         },
         {
             img: 'https://res.cloudinary.com/donntefzc/image/upload/v1742383485/vekii8zm0jamyzrxtlbq.png',
@@ -78,7 +79,7 @@ function Projects({pageRefs}){
             <div className="flex flex-wrap flex-2 gap-8 justify-center py-12">
                 {
                     projects.slice(0, showMore ? projects.length : 4).map((project) =>
-                        <a key={project.name} href={project.url} target="_blank" className=" w-[85%] lg:basis-[42vw] cursor-pointer group overflow-hidden ">
+                        <a key={project.name} href={project.url} target="_blank" className=" w-[90%] lg:basis-[42vw] cursor-pointer group overflow-hidden ">
                             <div className="bg-blue-100 borde border-gray-200 max-w-full rounded-3xl sm:rounded-4xl  overflow-hidden flex items-center relative">
                                 <img className="w-full  group-hover:scale-102 duration-200" src={project.img} alt="" />
                                 <p className="py-1 px-3 bg-green-200 text-xs rounded-xl absolute bottom-4 left-4">{project.type}</p>
@@ -97,7 +98,7 @@ function Projects({pageRefs}){
             </div>
 
             <div className="text-center px-26">
-                <button className={`cursor-pointer mr-12 mb-6 px-3 py-1 rounded-lg bg-blue-800 hover:bg-blue-500 text-white `} onClick={handleShowMore}>{showMore ? 'Show less' : 'Show All...'}</button>
+                <button className={`cursor-pointer px-5 py-2 font-medium rounded-full bg-white text-black duration-200 hover:bg-red-600 hover:text-white `} onClick={handleShowMore}>{showMore ? 'Show less' : 'Show All'}</button>
             </div>
         </div>
     )

@@ -72,7 +72,7 @@ function Tech({pageRefs}){
     ]
 
     return(
-        <div ref={(ele) => pageRefs.current[2] = ele} className="sticky py-16 px-6 sm:px-16 w-full bg-blue-600 flex flex-col items-center justify-center">
+        <div ref={(ele) => pageRefs.current[2] = ele} className="sticky py-16 px-6 md:px-12 lg:px-16 w-full bg-blue-600 flex flex-col items-center justify-center">
             <div className="md:w-120 sm:w-100 min-w-75 text-5xl sm:text-6xl md:text-7xl font-semibold text-white">
                 <p className="text-start">Area of</p>
                 <p className="text-end">Expertise</p>
